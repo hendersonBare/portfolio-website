@@ -1,0 +1,24 @@
+{
+  "name": "henderson-bare-portfolio",
+  "version": "1.0.0",
+  "description": "Henderson Bare's Software Engineer Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server",
+    "dev": "live-server --port=3000"
+  },
+  "dependencies": {
+    "three": "^0.158.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "keywords": [
+    "portfolio",
+    "threejs",
+    "software-engineer",
+    "web-development"
+  ],
+  "author": "Henderson Bare",
+  "license": "MIT"
+} 

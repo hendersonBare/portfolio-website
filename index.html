@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henderson Bare - Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="module" src="https://unpkg.com/three@0.154.0/build/three.module.js"></script>
+</head>
+<body>
+    <!-- 3D Earth Background -->
+    <div id="earth-container"></div>
+    
+    <!-- Main Content -->
+    <div class="content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="name">Henderson Bare</h1>
+                <h2 class="title">Software Engineer</h2>
+                <p class="subtitle">Computer Science & Applied Mathematics at the University of Utah</p>
+                <div class="cta-buttons">
+                    <a href="#about" class="btn btn-primary">About Me</a>
+                    <a href="#projects" class="btn btn-secondary">View Projects</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">HB</div>
+                <ul class="nav-menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+                <div class="nav-social">
+                    <a href="https://github.com/hendersonBare" target="_blank" class="nav-social-btn">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/hendersonbare/" target="_blank" class="nav-social-btn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:henderson.bare@gmail.com" class="nav-social-btn">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Stock Processor</h3>
+                        <p>Contracted by HoranDavis LLC to develop an algorithm specific data application for trading. Processed all stocks on NYSE and NASDAQ based on a specific algorithm into a database.</p>
+                        <div class="project-tech">
+                            <div class="project-tech-logo" title="Python">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                            </div>
+                            <div class="project-tech-logo" title="MySQL">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" class="mysql-dark">
+                            </div>
+                            <div class="project-tech-logo" title="HTML5">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+                            </div>
+                            <div class="project-tech-logo" title="Pandas">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas">
+                            </div>
+                        </div>
+                        <a href="https://github.com/yourusername/ecommerce-platform" target="_blank" class="project-github-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="project-card">
+                        <h3>JPL Compiler</h3>
+                        <p>Implemented an LL Parser for a custom language using Python. Included a lexer, parser, and AST. Also included indexing, casting, and looping optimizations.</p>
+                        <div class="project-tech">
+                            <div class="project-tech-logo" title="Python">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                            </div>
+                        </div>
+                        <a href="https://github.com/yourusername/analytics-dashboard" target="_blank" class="project-github-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Two-Layer Neural Network</h3>
+                        <p>Implemented a two-layer neural network from scratch in Python. Included backpropagation, gradient descent, and activation functions without the use of libraries.</p>
+                        <div class="project-tech">
+                            <div class="project-tech-logo" title="Python">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                            </div>
+                            <div class="project-tech-logo" title="Pandas">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas">
+                            </div>
+                        </div>
+                        <a href="https://github.com/yourusername/analytics-dashboard" target="_blank" class="project-github-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Educational Music Theory Game</h3>
+                        <p>Game written in C++ using Qt and the Box2D physics engine to teach players about the basics of music theory through the Beatles' discography.</p>
+                        <div class="project-tech">
+                            <div class="project-tech-logo" title="Qt">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/qt/qt-original.svg" alt="Qt">
+                            </div>
+                            <div class="project-tech-logo" title="C++">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++">
+                            </div>
+                        </div>
+                        <a href="https://github.com/yourusername/analytics-dashboard" target="_blank" class="project-github-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Agario Game</h3>
+                        <p>A version of Agar.io written using C# and MAUI with a server that supports multiple clients and a database to store player data.</p>
+                        <div class="project-tech">
+                            <div class="project-tech-logo" title=".NET">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" alt=".NET">
+                            </div>
+                            <div class="project-tech-logo" title="SQL Server">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-original.svg" alt="SQL Server">
+                            </div>
+                        </div>
+                        <a href="https://github.com/yourusername/analytics-dashboard" target="_blank" class="project-github-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Shell Application</h3>
+                        <p>Designed a shell application for UNIX based operating systems in C that supports basic commands like quit, jobs, fg, bg, and signal handling.</p>
+                        <div class="project-tech">
+                            <div class="project-tech-logo" title="C">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C">
+                            </div>
+                        </div>
+                        <a href="https://github.com/yourusername/analytics-dashboard" target="_blank" class="project-github-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Spreadsheet Application</h3>
+                        <p>Implemented the backend that handles cell dependencies and formula calculations in .NET using and SSMS and MAUI for the UI.</p>
+                        <div class="project-tech">
+                            <div class="project-tech-logo" title=".NET">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" alt=".NET">
+                            </div>
+                            <div class="project-tech-logo" title="MAUI">
+                                <img src="images/maui_robot.png" alt="MAUI">
+                            </div>
+                        </div>
+                        <a href="https://github.com/yourusername/analytics-dashboard" target="_blank" class="project-github-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Chat Application</h3>
+                        <p>Used C# and .NET MAUI to create a chatting application using clinet-server architecture and networking.</p>
+                        <div class="project-tech">
+                            <div class="project-tech-logo" title=".NET">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" alt=".NET">
+                            </div>
+                            <div class="project-tech-logo" title="MAUI">
+                                <img src="images/maui_robot.png" alt="MAUI">
+                            </div>
+                        </div>
+                        <a href="https://github.com/yourusername/analytics-dashboard" target="_blank" class="project-github-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="experience-grid">
+                    <div class="experience-card">
+                        <div class="experience-content">
+                            <h3>Software Engineer Intern</h3>
+                            <h4>Brevium</h4>
+                            <p class="experience-date">May 2025 - August 2025</p>
+                            <p>Designed and implemented a revenue reporting system in .NET and SQL for 4000+ medical practices.</p>
+                            <p>Optimized 2000x speed increase for file parser used for file-based data integrations.</p>
+                            <p>Led and performed department training for 10+ developers on PowerShell and unit testing.</p>
+                        </div>
+                        <div class="company-logo">
+                            <img src="images/brevium_logo.jpg" alt="Brevium Logo" class="company-logo-img">
+                        </div>
+                    </div>
+                    <div class="experience-card">
+                        <div class="experience-content">
+                            <h3>Software Engineer Intern</h3>
+                            <h4>Regions Financial Corporation</h4>
+                            <p class="experience-date">2020 - 2022</p>
+                            <p>Implemented a service that handles 6,000 billing exceptions monthly and recovers ~1MM in
+                                annual revenue</p>
+                            <p>Developed full-stack webpages using a C# .NET backend and a React frontend. Wrote a web API using EF Core and
+                                queried a database using Azure Data Studio.</p>
+                            <p>Utilized GitHub and Jira for version control and project management.</p>
+                        </div>
+                        <div class="company-logo">
+                            <img src="images/regions_logo.png" alt="Regions Logo" class="company-logo-img">
+                        </div>
+                    </div>
+                    <div class="experience-card">
+                        <div class="experience-content">
+                            <h3>Undergraduate Researcher</h3>
+                            <h4>SRI @ University of Utah</h4>
+                            <p class="experience-date">2019 - 2020</p>
+                            <p>Learned and Applied concepts of Chaos Theory in Jupyter Notebooks using python</p>
+                            <p>Calculated entropies of stock prices based on time series data and analyzed resistance to volatility</p>
+                        </div>
+                        <div class="company-logo">
+                            <img src="images/SRI_logo.jpg" alt="SRI Logo" class="company-logo-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I'm a passionate software engineer with interests in machine learning, full-stack development and object-oriented programming. I study Computer Science and Applied Mathematics at the University of Utah where I tutor other undergraduates in computer science and am a co-foudner of the Crimson Quant Club.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-icons-grid">
+                    <div class="skill-logo-box" title=".NET">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" alt=".NET">
+                    </div>
+                    <div class="skill-logo-box" title="SQL">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-original.svg" alt="SQL">
+                    </div>
+                    <div class="skill-logo-box" title="Python">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                    </div>
+                    <div class="skill-logo-box" title="C++">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++">
+                    </div>
+                    <div class="skill-logo-box" title="Java">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                    </div>
+                    <div class="skill-logo-box" title="Python">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                    </div>
+                    <div class="skill-logo-box" title="React">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+                    </div>
+                    <div class="skill-logo-box" title="HTML5">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+                    </div>
+                    <div class="skill-logo-box" title="Git">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                    </div>
+                    <div class="skill-logo-box" title="Pandas">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Scripts -->
+    <script type="module" src="script.js"></script>
+</body>
+</html> 
